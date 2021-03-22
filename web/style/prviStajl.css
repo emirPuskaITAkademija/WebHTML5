@@ -1,0 +1,26 @@
+		   body{
+				background-color: powderblue;
+		   }
+		   h1{
+				color: blue;
+				font-size: 300%;
+				text-align: center;
+		   }
+		   p{
+				color: black;
+		   }
+		   table,th,td{
+			   border:1px solid black;
+
+		   }
+		   
+		   table{
+			   border-spacing: 0px;
+		   }
+		   
+		   th,td{
+			   padding: 15px;
+		   }
+		   th{
+			   text-align: left;
+		   }

@@ -1,0 +1,26 @@
+#polaznici{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#polaznici td, #polaznici th{
+    border: 1px solid gray;
+    padding: 6px;
+}
+
+#polaznici tr:hover{
+    background-color: #00FF00;
+}
+
+#polaznici th{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: left;
+    background-color: green;
+    color: white;
+}
+
+#polaznici tr:nth-child(even){
+    background-color: #F1E8D8;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link href="stilovi.css" type="text/css" rel="stylesheet">
+    <link href="stilovi2.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+
+    <h3 class="forma">Ovo je registracijska forma</h3>
+    <p class="paragrafi">Test paragraf</p>
+    <p class="paragrafi">Test 2 paragraf</p>
+    <p id="treci"> Treći paragraf</p>
+
+    <form  method="get">
+        <div class="forma">
+           <label for="firstNameInput" >First Name:</label>
+            <input id="firstNameInput" type="text" placeholder="John" required="true"/>
+            <label for="lastNameInput">Last Name:</label>
+            <input id="lastNameInput" type="text" placeholder="Smith" required/>
+        </div>
+        <div class="forma">
+            <label for="maleRadio">Male</label>
+            <input type="radio" id="maleRadio" name="gender" value="Male"/>
+            <label for="femaleRadio">Female</label>
+            <input type="radio" id="femaleRadio" name="gender" value="Female"/>
+            <label for="otherRadio">Other</label>
+            <input type="radio" id="otherRadio" name="gender" value="Female"/>
+        </div>
+        <div class="forma">
+            <label for="emailInput">Email:</label>
+            <input id="emailInput" type="email" placeholder="your email" required="true"/>
+            <label for="passwordInput">Password:</label>
+            <input id="passwordInput" type="password" placeholder="your password" minlength="5" maxlength="10"/>
+        </div>
+        <div class="forma">
+            <label for="birthdayInput">Birthday:</label>
+            <input id="birthdayInput" type="date" />
+        </div>
+        <div>
+            <label for="checkBoxAgreement">I agree to the terms and conditions</label>
+            <input id="checkBoxAgreement" type="checkbox"/>
+        </div>
+        <div>
+            <input type="submit" value="Submit"/>
+        </div>
+    </form>
+</body>
+</html>

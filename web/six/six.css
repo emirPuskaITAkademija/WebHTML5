@@ -1,0 +1,22 @@
+body{
+    font-family: "Sofia", sans-serif
+}
+
+a:visited{
+  color:black;
+  background-color: red;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+
+
+a:hover, a:active{
+     color:white;
+     padding: 12px;
+     text-decoration: none;
+     background-color: green;
+}
